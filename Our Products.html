@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Les produits de Noxi Tech - Solutions innovantes">
+    <title>Nos Produits - Noxi Tech</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img class="logo" src="assets/logo.svg" alt="Noxi Tech Logo">
+                </a>
+                <h1 class="site-title"><a href="index.html">Noxi Tech</a></h1>
+            </div>
+            
+            <nav class="nav-desktop">
+                <a href="Our Products.html" class="nav-link nav-active">Nos Produits</a>
+                <a href="About Us.html" class="nav-link">À Propos</a>
+            </nav>
+            
+            <div class="user-controls">
+                <img src="assets/user.svg" alt="User Account" class="user-icon" id="user-icon">
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <img src="assets/menu-burger.svg" alt="Menu" class="menu-icon" id="menu-icon">
+                </button>
+            </div>
+        </div>
+        
+        <nav class="nav-mobile" id="nav-mobile">
+            <a href="Our Products.html" class="nav-link">Nos Produits</a>
+            <a href="About Us.html" class="nav-link">À Propos</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="block-title" style="color: var(--primary-text); margin-top: var(--spacing-lg);">Nos Produits</h1>
+        
+        <div class="products-grid">
+            <article class="product-card">
+                <img src="assets/img/sample1.png" alt="Weather Application" class="product-image">
+                <h3 class="product-title">Application Météo</h3>
+                <p class="product-description">Une application météo précise et personnalisable pour planifier vos journées avec confiance.</p>
+            </article>
+            
+            <!-- Added more product cards for demonstration -->
+            <article class="product-card">
+                <img src="assets/img/sample1.png" alt="Smart Home Solution" class="product-image">
+                <h3 class="product-title">Maison Connectée</h3>
+                <p class="product-description">Solutions domotiques respectueuses de votre vie privée pour une maison intelligente et sécurisée.</p>
+            </article>
+            
+            <article class="product-card">
+                <img src="assets/img/sample1.png" alt="Secure Messaging" class="product-image">
+                <h3 class="product-title">Messagerie Sécurisée</h3>
+                <p class="product-description">Communication chiffrée de bout en bout pour protéger vos conversations importantes.</p>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Noxi Tech - All Rights Reserved 2025</p>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

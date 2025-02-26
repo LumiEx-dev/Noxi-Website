@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Lora-Variable;
+    src: url(assets\fonts\Lora-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: #000000;
+    font-family: Lora-Variable;
+}
+
+div#header{
+    background-color: #002500;
+    color: #00FF00;
+    display: flex;
+    align-items: center;
+    h1{
+        margin-left: 10px;
+        font-size: 40px;
+    }
+    h2.first{
+        margin-left: 660px;
+    }
+    h2{
+        margin-left: 20px;
+    }
+    img#user{
+        margin-left: 30px;
+    }
+    img#menu{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    a{
+        color: #00FF00;
+        text-decoration: none;
+    }
+    border: solid;
+    border-radius: 0px 0px 5px 5px;
+    border-color: #002500;
+    a{
+        transition: transform 500ms ease;
+    }
+    a:hover{
+        transform: scale(1.05);
+        text-size-adjust: auto;
+    }
+}
+div.block{
+    background-color: #002500;
+    color: #00C800;
+    border: solid;
+    border-radius: 10px;
+    border-color: #00FF00;
+    border-width: 5px;
+    margin-top: 10px;
+
+    h1{
+        text-align: center;
+    }
+
+    p{
+        padding-left: 5px;
+        font-size: large;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+p#About{
+    display: flex;
+    text-align: center;
+}
+div#grid{
+    width: 600px;
+    height: 300px;
+    background-color: #002500;
+    color: #00C800;
+    border: solid;
+    border-radius: 10px;
+    border-color: #00FF00;
+    border-width: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    #Weather{
+        text-align: Center;
+        img{
+           width: 70%;
+           height: 70%;
+        }
+    }
+}
